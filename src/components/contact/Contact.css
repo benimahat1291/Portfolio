@@ -1,0 +1,33 @@
+.contact {
+    min-width: 400px;
+    background: lavender;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px #1565C0;
+    padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.contact__title {
+    width: 80%;
+    margin: auto;
+}
+
+
+.contact__userInfo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.contact__userInput {
+    width: 100%;
+    margin: 0rem 3rem 3rem 3rem;
+}
+
+.contact__message {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 3rem 0rem 3rem;
+}

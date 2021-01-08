@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import "./TabsComponent.css"
 import {Tabs, Tab} from "react-mdl"
 import AboutMe from "../aboutme/AboutMe"
+import Skills from "../skills/Skills"
+import Contact from "../contact/Contact"
 
 function TabsComponent() {
 
@@ -11,9 +13,9 @@ function TabsComponent() {
         if(activeTab === 0){
             return(<div><AboutMe/></div>)
         } else if(activeTab === 1) {
-            return(<div>hi</div>)
+            return(<div><Skills/></div>)
         } else if(activeTab ===2){
-            return(<div>goodbye</div>)
+            return(<div><Contact/></div>)
         }
 
     }
