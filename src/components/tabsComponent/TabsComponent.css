@@ -1,13 +1,24 @@
+
 .tabs {
-    padding-top: 1rem;
-    width: 94%;
+    padding: 3rem 0 3rem 0;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     border-radius: 20px;
-    margin-bottom: none;
+}
+
+.aboutme__titleBackground {
+    display: flex;
+    justify-content: space-evenly;
+    color: lavender;
+    background: #1565C0;
+    box-shadow:  40px 30px 40px rgba(0,0,0,.1);
+}
+
+.aboutme__title {
+    width: 60%;
 }
 
 .tab {
@@ -18,3 +29,4 @@
 .mdl-tabs__tab-bar {
     border-bottom: none !important;
 }
+

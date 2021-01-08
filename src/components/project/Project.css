@@ -1,0 +1,28 @@
+
+.project {
+    padding: 10rem 0 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project__img > img {
+    width: 500px;
+    border-radius: 25px;
+}
+
+.project__info {
+    color: lavender;
+    width: 30%;
+}
+
+.project__links {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.project__link {
+    width: 100%;
+}

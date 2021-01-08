@@ -3,6 +3,7 @@
 .profile__card {
     min-width: 300px;
     width: 75%;
+    margin: auto;
     background-color: lavender;
     position: relative;
     margin-top: -450px ;

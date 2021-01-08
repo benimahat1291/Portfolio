@@ -1,0 +1,17 @@
+.projects {
+    min-width: 400px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.projects__titleBackground {
+    display: flex;
+    justify-content: space-evenly;
+    color: lavender;
+    background: #1565C0;
+    box-shadow:  40px 30px 40px rgba(0,0,0,.1);
+}
+
+.projects__title {
+    width: 60%;
+}

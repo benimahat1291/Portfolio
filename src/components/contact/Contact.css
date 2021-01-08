@@ -1,5 +1,7 @@
 .contact {
     min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
     background: lavender;
     border-radius: 20px;
     box-shadow: inset 0 0 5px #1565C0;
