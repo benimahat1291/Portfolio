@@ -1,0 +1,20 @@
+.tabs {
+    padding-top: 1rem;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    margin-bottom: none;
+}
+
+.tab {
+    border-radius: 20px 20px 0 0;
+    text-decoration: none;
+}
+
+.mdl-tabs__tab-bar {
+    border-bottom: none !important;
+}
