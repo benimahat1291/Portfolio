@@ -17,9 +17,10 @@ function App() {
                                 <Link to="/projects">Projects</Link>
                             </Navigation>
                         </Header>
-                        <Drawer title="Projects">
+                        <Drawer className="nav_drawer" title="Projects">
                             <Navigation>
-                                <Link to="/">Homepage</Link>
+                                <Link to="/">About Me</Link>
+                                <Link to="/">Skills</Link>
                                 <Link to="/projects">Projects</Link>
                             </Navigation>
                         </Drawer>

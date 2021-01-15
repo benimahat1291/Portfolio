@@ -55,7 +55,19 @@
     .aboutMe__bio > p {
         width: 10vw;
     }
+    .aboutMe {
+        padding: 5rem 2rem 0rem 2rem;
+    }
 
+}
+@media only screen and (max-width: 447px) {
 
+    .aboutMe__section {
+        margin-top: -7rem;
+        padding-top: 2rem;
+    }
 
+    .aboutMe {
+        padding: 5rem 2rem 0rem 2rem;
+    }
 }
