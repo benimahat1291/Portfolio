@@ -1,33 +1,39 @@
-.aboutMe {
-    min-width: 400px;
-    max-width: 1000px;
-    margin: auto;
-    background: lavender;
-    border-radius: 20px;
-    box-shadow: inset 0 0 5px #1565C0;
-    padding: 2rem 0 2rem 0;
+.aboutMe__section {
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b92b27, #1565C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: inset 0px 0px 5px lavender;
 }
 
-.aboutMe__title {
-    width: 80%;
+
+.aboutMe {
+    min-width: 350px;
+    max-width: 1200px;
     margin: auto;
-    font-size: 3rem;
-    padding: 2rem;
+    padding: 5rem 2rem 7rem 2rem;
+    
 }
 
 .aboutMe__body {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    color: lavender;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 
-.aboutMe__bio {
-    width: 300rem;
-    margin-right: 2rem;
+.aboutMe__title {
+    color: lavender;
+    border-bottom: 1px solid white;
 }
+
+.aboutMe__bio > p {
+    width: 90%;
+    margin: auto;
+}
+
 
 .du__logo {
     width: 200px;
@@ -46,9 +52,10 @@
         padding: 2rem;
         border-radius: 50px
     };
-    .aboutMe__bio {
-        width: 100%;
-        margin-right: none;
+    .aboutMe__bio > p {
+        width: 10vw;
     }
+
+
 
 }

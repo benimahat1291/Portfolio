@@ -4,6 +4,8 @@ import codeBackground from "../../img/background.jpg"
 import ProfileCard from "../profilecard/ProfileCard"
 import TabsComponent from "../tabsComponent/TabsComponent"
 import Projects from "../projects/Projects"
+import AboutMe from "../aboutme/AboutMe"
+import Skills from "../skills/Skills"
 
 function Home() {
     return (
@@ -13,9 +15,9 @@ function Home() {
                 <ProfileCard />
             </div>
             <div>
-                <TabsComponent />
-            </div>
-            <div>
+                {/* <TabsComponent /> */}
+                <AboutMe/>
+                <Skills/>
                 <Projects/>
             </div>
         </div>

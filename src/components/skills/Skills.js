@@ -15,28 +15,36 @@ import FirebaseIcon from "../../img/firebase_icon.png"
 
 function Skills() {
     return (
-        <div className="skills">
-            <div className="skills__title"><h2>Front End</h2></div>
-            <div className="skills__icons">
-                <div className="skill_icon"><img src={HtmlIcon} alt="html" /></div>
-                <div className="skill_icon"><img src={CssIcon} alt="css" /></div>
-                <div className="skill_icon"><img src={JsIcon} alt="js" /></div>
-                <div className="skill_icon"><img src={ReactIcon} alt="React" /></div>
-                <div className="skill_icon"><img src={JqIcon} alt="jq" /></div>
-                <div className="skill_icon"><img src={BootstrapIcon} alt="bootstrap" /></div>
-                <div className="skill_icon"><img src={MateralizeIcon} alt="js" /></div>
-            </div>
-            <div className="skills__title"><h2>Back End</h2></div>
-            <div className="skills__icons">
-                <div className="skill_icon"><img src={NodeIcon} alt="Node" /></div>
-                <div className="skill_icon"><img src={ExpressIcon} alt="Express" /></div>
-                <div className="skill_icon"><img src={MongoIcon} alt="MongoDB" /></div>
-                <div className="skill_icon"><img src={FirebaseIcon} alt="FireBase" /></div>
-                <div className="skill_icon"><img src={SqlIcon} alt="Sql" /></div>
-            </div>
+        <section className="skills_section">
+            <div className="skills">
+                <h1 className="skills__title">Skills</h1>
+                <div className="skills__container">
+                    <div className="skills__frontEnd">
+                        <div className="skills__title2"><h2>Front End</h2></div>
+                        <div className="skills__icons">
+                            <div className="skill_icon"><img src={HtmlIcon} alt="html" /><p>HTML5</p></div>
+                            <div className="skill_icon"><img src={CssIcon} alt="css" /><p>CSS</p></div>
+                            <div className="skill_icon"><img src={JsIcon} alt="js" /><p>JavaScript</p></div>
+                            <div className="skill_icon"><img src={ReactIcon} alt="React" /><p>React</p></div>
+                            <div className="skill_icon"><img src={JqIcon} alt="jq" /><p>JQuerry</p></div>
+                            <div className="skill_icon"><img src={BootstrapIcon} alt="bootstrap" /><p>BootStrap</p></div>
+                            <div className="skill_icon"><img src={MateralizeIcon} alt="js" /><p>Materalize</p></div>
+                        </div>
+                    </div>
+                    <div className="skills__backEnd">
+                        <div className="skills__title2"><h2>Back End</h2></div>
+                        <div className="skills__icons">
+                            <div className="skill_icon"><img src={NodeIcon} alt="Node" /><p>Node JS</p></div>
+                            <div className="skill_icon"><img src={ExpressIcon} alt="Express" /><p>Express</p></div>
+                            <div className="skill_icon"><img src={MongoIcon} alt="MongoDB" /><p>MongoDB/Mongoose</p></div>
+                            <div className="skill_icon"><img src={FirebaseIcon} alt="FireBase" /><p>Firebase</p></div>
+                            <div className="skill_icon"><img src={SqlIcon} alt="Sql" /><p>NoSql</p></div>
+                        </div>
+                    </div>
+                </div>
 
-
-        </div>
+            </div>
+        </section>
     )
 }
 
