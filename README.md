@@ -11,7 +11,7 @@
 
 ## Description
 
-This is my first attempt at a protfolio page. Designed in 2020, reference my new protfolio 2021. 
+This was first react application. Designed in 2020, reference my new protfolio 2021. 
 
 
 ## Links
